@@ -1,0 +1,34 @@
+.card{
+    background-image: linear-gradient(to bottom, #0a96b9, #309bb9, #44a0b9, #55a4b9, #64a9ba);
+box-shadow: 0 10px 32px 0 rgba(3, 5, 39, 0.37);
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 25px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.temp-1{
+    color: rgb(252, 254, 255);
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: 400;
+}
+.location{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2px 4px 2px 2px;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.time_container{
+    color: rgb(255, 251, 251);
+    font-size: larger;
+    font-weight: 400;
+}
+.last_container{
+    color: rgba(255, 255, 255, 0.832);
+    font-size: smaller;
+}

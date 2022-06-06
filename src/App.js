@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
+import Cards from './components/Cards';
+import ScaleLoader from "react-spinners/ScaleLoader";
 
 function App() {
+  const[loading,setloading]=useState(false)
+  useEffect(()=>{
+  setloading(true);
+  setTimeout(()=>{
+    setloading(false)
+  },3000);
+  },[])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <div className='App'>
+     <div className='load_cont'>
+     {loading ?  <ScaleLoader  color="rgb(0, 221, 251)" loading={loading} height={60} width={6}/>:<div className='app_container'>
+   <Cards/><Cards/><Cards/><Cards/></div>}
+   </div>
+   </div>
+    
+    <div class="area">
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+     </>
   );
 }
 
