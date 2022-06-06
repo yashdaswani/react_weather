@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/https://yashdaswani.github.io/weather/static/css/main.5380fb7b.css",
-    "main.js": "/https://yashdaswani.github.io/weather/static/js/main.5be59d6c.js",
-    "static/js/787.13d76ca7.chunk.js": "/https://yashdaswani.github.io/weather/static/js/787.13d76ca7.chunk.js",
-    "static/media/cloud.png": "/https://yashdaswani.github.io/weather/static/media/cloud.613cafc091d07d428ead.png",
-    "static/media/rain.png": "/https://yashdaswani.github.io/weather/static/media/rain.0d0f7120476ea2946c1f.png",
-    "static/media/sun.png": "/https://yashdaswani.github.io/weather/static/media/sun.189902da5949a893e503.png",
-    "index.html": "/https://yashdaswani.github.io/weather/index.html",
-    "main.5380fb7b.css.map": "/https://yashdaswani.github.io/weather/static/css/main.5380fb7b.css.map",
-    "main.5be59d6c.js.map": "/https://yashdaswani.github.io/weather/static/js/main.5be59d6c.js.map",
-    "787.13d76ca7.chunk.js.map": "/https://yashdaswani.github.io/weather/static/js/787.13d76ca7.chunk.js.map"
+    "main.css": "/weather/static/css/main.5380fb7b.css",
+    "main.js": "/weather/static/js/main.26740e8f.js",
+    "static/js/787.13d76ca7.chunk.js": "/weather/static/js/787.13d76ca7.chunk.js",
+    "static/media/cloud.png": "/weather/static/media/cloud.613cafc091d07d428ead.png",
+    "static/media/rain.png": "/weather/static/media/rain.0d0f7120476ea2946c1f.png",
+    "static/media/sun.png": "/weather/static/media/sun.189902da5949a893e503.png",
+    "index.html": "/weather/index.html",
+    "main.5380fb7b.css.map": "/weather/static/css/main.5380fb7b.css.map",
+    "main.26740e8f.js.map": "/weather/static/js/main.26740e8f.js.map",
+    "787.13d76ca7.chunk.js.map": "/weather/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5380fb7b.css",
-    "static/js/main.5be59d6c.js"
+    "static/js/main.26740e8f.js"
   ]
 }
